@@ -59,7 +59,7 @@ namespace UnofficialAniListApiSharp.Samples
                 {
                     string name = prop.Name;
                     object value = prop.GetValue(item);
-                    Console.WriteLine("\t{0} = {1}\n", name, value);
+                    Console.WriteLine("\t{0} = {1}", name, value);
                 }
 
                 Console.WriteLine("}");
